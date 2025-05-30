@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class YsController {
 
     @ResponseBody
-    @GetMapping("/ys")
+    @GetMapping("/ys2")
     public String teacher() {
         return "project 동작";
     }
